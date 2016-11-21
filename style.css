@@ -868,6 +868,7 @@ input[type=range]::-ms-track {
 
 
 .slot{
+    position: relative;
     float: left;
     width: 31.7%;
     border: 1px solid #e8e8e8;
@@ -896,6 +897,61 @@ input[type=range]::-ms-track {
 .slot-text > div {
     padding-top: 2px;
 }
+
+
+
+.details{
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    text-align: center;
+    font-size: 0px;
+    transition: all 0.7s ease 0s;
+    background-color: rgba(1, 101, 121, 0);
+}
+.details:hover{
+    height: 100%;
+    font-size: 15px;
+    background-color: rgba(1, 101, 121, 0.5);
+}
+.details:hover .circle2{
+    opacity:1;
+}
+.details:hover .circle3{
+    opacity:1;
+}
+.details:hover .circle4{
+    opacity:1;
+}
+.circle2{
+    opacity: 0;
+    margin-top: 40%;
+    border: 5px solid white;
+    border-radius: 100%;
+    padding: 5%;
+    background-color: #016579;
+    transition: all 0.8s ease 0s;
+}
+.circle3{
+    opacity: 0;
+    margin-top: 40%;
+    border: 3px solid white;
+    border-radius: 100%;
+    padding: 3%;
+    background-color: #016579;
+    transition: all 0.8s ease 0s;
+}
+.circle4{
+    opacity: 0;
+    margin-top: 40%;
+    border: 3px solid white;
+    border-radius: 100%;
+    padding: 3%;
+    background-color: #e9d00a;
+    transition: all 0.8s ease 0s;
+}
+
+
 @media screen and (max-device-width: 500px) {
     .top-header-c {
         width: 50%;
