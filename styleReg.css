@@ -4,6 +4,10 @@ body {
     color: #bdbbb9;
     font-family: 'Lato', sans-serif;
 }
+.header-page{
+    float: left;
+    text-align: center;
+}
 .main{
     margin: auto;
     padding: 20px;
