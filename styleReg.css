@@ -1,0 +1,278 @@
+body {
+    position: relative;
+    margin: auto;
+    color: #bdbbb9;
+    font-family: 'Lato', sans-serif;
+}
+.main{
+    margin: auto;
+    padding: 20px;
+    background-color: #2a4b6a;
+}
+.form{
+    margin: auto;
+    background-color: #1b2838;
+    border-radius: 4px;
+}
+form > div {
+    height: 55px;
+    margin: 5px;
+}
+.dl {
+    float: left;
+}
+.dr {
+    float: left;
+}
+label {
+    display: block;
+}
+input {
+    color: white;
+    display: block;
+    background-color: #2a4b6a;
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 20px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.button {
+    margin: 15px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #2a4b6a;
+    color: #5190ca;
+}
+.button:hover {
+    border: none;
+    background-color: #5aaaea;
+    color: white;
+}
+.footer {
+    position: absolute;
+    height: 20px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1%;
+    background-color: #171a21;
+    text-align: center;
+}
+.bot {
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.ff {
+    color: white;
+    background-color: #2a4b6a;
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    vertical-align: middle;
+    width: 170px;
+}
+.ff .but {
+    border: none;
+    border-radius: 3px;
+    background-color: #5190ca;
+    color: white;
+    float: right;
+    font-size: 12px;
+    height: 15px;
+    overflow: hidden;
+    padding: 2px 6px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+}
+.ff #file {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    opacity: 0;
+    height: 30px;
+}
+.select {
+    color: white;
+    background-color: #2a4b6a;
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 30px;
+    margin-top: 5px;
+    text-align: left;
+    vertical-align: middle;
+    width: 180px;
+}
+.dl2 {
+    height: 100%;
+    float: left;
+}
+.dl2 > input {
+    margin: 20px;
+}
+.dr2 {
+    height: 100%;
+    float: left;
+}
+.dr2 > label {
+    margin: 20px;
+}
+.dr4 {
+    float: left;
+}
+@media screen and (min-device-width:1025px) {
+    .header {
+        height: 100px;
+        background-color: #171a21;
+        margin: auto;
+        padding: 5px;
+    }
+    .header1 {
+        width: 70%;
+        height: 100%;
+        margin: auto;
+    }
+    .header-page {
+        width: 70%;
+        font-size: 20px;
+        padding: 20px;
+    }
+    .header-icon {
+        width: 25%;
+        float: left;
+    }
+    .img {
+        width: auto;
+        height: 100px;
+    }
+    .main {
+        height: 930px;
+    }
+    .form {
+        width: 70%;
+        padding: 5px;
+    }
+    form > div {
+        border-bottom: 1px solid #bdbbb9;
+        padding: 10px;
+    }
+    .dl {
+        height: 100%;
+        width: 49%;
+    }
+    .d1 {
+        width: 60%;
+        float: left;
+    }
+    .d2 {
+        padding: 5px;
+        width: 35%;
+        float: left;
+        text-align: left;
+        font-size: 10px;
+    }
+    .dr {
+        padding-left: 15px;
+        height: 100%;
+        border-left: 1px solid #bdbbb9;
+        width: 49%;
+    }
+    .dl2 {
+        width: 2%;
+    }
+    .dr2 {
+        width: 15%;
+    }
+    .dr3 > div > input {
+        margin: 15px;
+    }
+    .dr3 {
+        width: 66%;
+        height: 100%;
+        float: left;
+    }
+    .dr3 > div {
+        width: 33%;
+        float: left;
+    }
+    .dr3 > div > img {
+        margin-left: 95px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .dr3 > div > label {
+        margin: 20px;
+    }
+    .dr4 {
+        width: 17%;
+    }
+}
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+    .header .header1 {
+        height: 50px;
+        background-color: #171a21;
+        padding: 20px;
+    }
+    .header-page {
+        width: 100%;
+        font-size: 15px;
+    }
+    .img {
+        height: 0;
+        width: 0;
+    }
+    .main {
+        height: 1270px;
+    }
+    .form {
+        width: 100%;
+        height: 100%;
+    }
+    form > div {
+        display: block;
+        width: 100%;
+    }
+    .dl {
+        display: block;
+        width: 90%;
+        border-bottom: 1px solid #bdbbb9;
+        padding: 5px;
+    }
+    .dr {
+        display: block;
+        width: 90%;
+        border-bottom: 1px solid #bdbbb9;
+        padding: 5px;
+    }
+    .d2 {
+        text-align: left;
+        font-size: 12px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    .dl2 {
+        width: 10%;
+    }
+    .dr2 {
+        width: 50%;
+    }
+    .dr4 {
+        width: 40%;
+    }
+    #but {
+        height: 40px;
+    }
+}

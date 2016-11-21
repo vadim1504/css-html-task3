@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index</title>
+    <link href="styleReg.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+
+
+фамилия, имя, адрес, Адрес электронной почты Пароль, Подтверждение пароля и тел
+
+
+<div class="main" >
+    <div class="form">
+        <form autocomplete="off" >
+            <div>
+                <div class="dl">
+                    <div class="d1">
+                        <label for="accountname">Введите желаемое имя аккаунта</label>
+                        <input type="text" name="accountname" id="accountname" placeholder="Accountname" title="Accountname" minlength="6" maxlength="12" required/>
+                    </div>
+                    <div class="d2">
+                        <label>Не менее 6 и не более 12 символов</label>
+                    </div>
+                </div>
+                <div class="dr">
+                    <div class="d1">
+                        <label for="date">Выберите дату</label>
+                        <input type="date" name="date" id="date" placeholder="Date" title="date"/>
+                    </div>
+                    <div class="d2">
+                        <label>Введите дата рождения от рождество христово</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="dl">
+                    <div class="d1">
+                        <label for="password">Введите пароль</label>
+                        <input type="password" name="password" id="password" placeholder="Password" title="Password" minlength="8" maxlength="16" required/>
+                    </div>
+                    <div class="d2">
+                        <label>Не менее 8 и не более 16 символов</label>
+                    </div>
+                    </div>
+                <div class="dr">
+                    <div class="d1">
+                    <label>Выберите иконку</label>
+                    <div class="ff">
+                        <div class="but">Обзор</div>
+                        <input id="file" type="file" name="file" multiple accept="image/jpeg,image/bmp,image/png"/>
+                    </div>
+                    </div>
+                    <div class="d2">
+                        <label>Только JPEG BMP PNG</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="dl">
+                    <div class="d1">
+                        <label for="email">Введите ваш адрес эл. почты</label>
+                        <input type="email" name="email" id="email" placeholder="@mail" title="email" required/>
+                    </div>
+                    <div class="d2">
+                        <label>Реальный адрес эл. почты для подтверждения регистрации</label>
+                    </div>
+                </div>
+                <div class="dr">
+                    <div class="d1">
+                        <label for="phone">Введите номер телефона</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Phone" minlength="5" title="phone" required/>
+                    </div>
+                    <div class="d2">
+                        <label>Мобильный номер телефона с кодом страны</label>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="dl">
+                    <div class="d1">
+                        <label for="select">Выберите город</label>
+
+                        <select class="select" id="select">
+                            <option>Гомель</option>
+                            <option>Москва</option>
+                            <option>Лондон</option>
+                        </select>
+                    </div>
+                    <div class="d2">
+                        <label>Выберите свой город из предложеных</label>
+                    </div>
+                </div>
+                <div class="dr">
+                    <div class="d1">
+                        <label for="country">Введите страну</label>
+                        <input type="text" name="country" id="country" placeholder="Country" title="Country" required/>
+                    </div>
+                    <div class="d2">
+                        <label>Страна проживания, если не указано по умолчанию: Гондурас</label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="dl">
+                    <div class="d1">
+                        <label for="ind">Введите почтовый индекс</label>
+                        <input type="ind" name="ind" id="ind" placeholder="index" title="ind"/>
+                    </div>
+                    <div class="d2">
+                        <label>Высылаем спам прямо на дом</label>
+                    </div>
+                </div>
+                <div class="dr">
+                    <div class="d1">
+                        <label for="select1">Пол</label>
+                        <select class="select" id="select1">
+                            <option>Парень</option>
+                            <option>Девушка</option>
+                        </select>
+                    </div>
+                    <div class="d2">
+                        <label>От ответа не зависит ни чего</label>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="dl">
+                    <div class="d1">
+                        <label for="tancor">Что мешает плохому танцору</label>
+                        <input type="tancor" name="tancor" id="tancor"/>
+                    </div>
+                    <div class="d2">
+                        <input type="in" name="in" id="in" />
+                        <label>От ответа зависит многое</label>
+                    </div>
+                </div>
+                <div class="dr">
+                    <div class="d1">
+                        <label for="in">Воздух в колёсах</label>
+                    </div>
+                    <div class="d2">
+                        <label>Когда едет машина, крутиться ли воздух внутри колес?</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bot">
+                <div class="dl2">
+                    <input type="checkbox"  id="check" required="on">
+                </div>
+                <div class="dr2">
+                    <label for="check">Я согласен</label>
+                </div>
+
+
+                <div class="dr3">
+                </div>
+
+
+                <div class="dr4">
+                    <button class="button" name="button" id="but">Создать аккаунт</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+</body>
+</html>
